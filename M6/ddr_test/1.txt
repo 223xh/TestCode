@@ -1,0 +1,4 @@
+COBJS-$(CONFIG_CMD_DDR_TEST) += cmd_ddr_test.o
+
+#define CONFIG_CMD_DDR_TEST  1
+#define DDR_ADDRESS_TEST_FOR_DEBUG 1

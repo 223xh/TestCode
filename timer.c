@@ -1,0 +1,1 @@
+AVTimerCreateFlag(3000, (TIMER_CB_t)MyTimer, NULL, AVTIMER_FLAG_PERIODIC);

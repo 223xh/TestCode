@@ -1,0 +1,10 @@
+
+menu "Amlogic register module"
+
+config REG
+	tristate "Register Driver added by Eric Xie" 
+	default m
+	help
+   		Read or write register from physical memory.
+
+endmenu

@@ -1,0 +1,6 @@
+*(RTC_REG0) |= 1<<5;
+    *(RTC_REG0) &= ~(1<<4);
+
+i=32768;
+        while(--i)
+            rtc_test_clk();
